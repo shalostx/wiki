@@ -1,10 +1,10 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 const config = {
-  title: "Shalostx's KB",
+  title: "Shalostx's Wiki",
   tagline: 'База знаний для разработчиков Minecraft',
   favicon: 'img/favicon.ico',
-  url: 'https://kb.shalostx.space',
+  url: 'https://wiki.shalostx.space',
   baseUrl: '/',
   organizationName: 'shalostx',
   projectName: 'kb',
@@ -56,7 +56,7 @@ const config = {
         },
         {to: '/blog', label: 'Блог', position: 'left'},
         {
-          href: 'https://github.com/shalostx/github',
+          href: 'https://github.com/shalostx/wiki',
           label: 'GitHub',
           position: 'right',
         },
@@ -88,7 +88,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Shalostx's KB, Inc. Создано с помощью Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Shalostx's Wiki, Inc. Создано с помощью Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
