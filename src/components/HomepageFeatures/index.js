@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '✨ Всё в одном месте',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Img: '/img/allinone.png',
     description: (
       <>
         Надоело искать информацию по разным сайтам и форумам? Эта база знаний создана, чтобы всё, что вам нужно, было под рукой.
@@ -14,16 +14,16 @@ const FeatureList = [
   },
   {
     title: '🔍 Простота поиска',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Img: '/img/fastsearch.png',
     description: (
       <>
-        Благодаря структуре <code>Docusaurus</code> вы легко найдёте нужный контент с помощью встроенного поиска..
+        Благодаря структуре <code>Docusaurus</code> вы легко найдёте нужный контент с помощью встроенного поиска.
       </>
     ),
   },
   {
     title: '⏱️ Актуальность',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Img: '/img/actual.png',
     description: (
       <>
         Забудьте об устаревшей информации! 🛠️ Этот проект — open source, и вы можете предлагать свои статьи и исправления прямо на GitHub.
@@ -32,11 +32,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Img, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureImg} src={Img} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

@@ -3,11 +3,11 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: "Shalostx's Wiki",
   tagline: 'База знаний для разработчиков Minecraft',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
   url: 'https://wiki.shalostx.space',
   baseUrl: '/',
   organizationName: 'shalostx',
-  projectName: 'kb',
+  projectName: 'wiki',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
@@ -20,7 +20,7 @@ const config = {
       {
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/shalostx/wiki/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -28,7 +28,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/shalostx/wiki/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -40,12 +40,12 @@ const config = {
     ],
   ],
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card.png',
     navbar: {
-      title: "Shalostx's KB",
+      title: "Shalostx's Wiki",
       logo: {
-        alt: 'Shalostxs KB',
-        src: 'img/logo.svg',
+        alt: 'Shalostxs Wiki',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -70,7 +70,7 @@ const config = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/UGq47tqRzz',
             },
           ],
         },
