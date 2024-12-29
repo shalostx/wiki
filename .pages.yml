@@ -7,4 +7,4 @@ content:
     fields:
       - { name: title, label: title, type: string}
       - { name: id, label: ID, type: string}
-      - { name: body, label: Body, type: rich-text}
+      - { name: body, label: Body, hidden: true, type: rich-text}
