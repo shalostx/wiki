@@ -5,5 +5,6 @@ content:
     type: collection
     filename: "{primary}.md"
     fields:
+      - { name: title, label: title, type: string}
       - { name: id, label: ID, type: string}
       - { name: body, label: Body, type: rich-text}
