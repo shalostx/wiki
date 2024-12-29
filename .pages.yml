@@ -4,3 +4,5 @@ content:
     path: docs/⚙️ Оптимизация сервера
     type: collection
     filename: "{primary}.md"
+    fields:
+      - { name: id, label: ID, type: string}
