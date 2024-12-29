@@ -3,3 +3,4 @@ content:
     label: Docs
     path: docs/⚙️ Оптимизация сервера
     type: collection
+    filename: "{primary}.md"
