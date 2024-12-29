@@ -1,4 +1,5 @@
-pages:
-  - title: "Выбор ядра"
-    path: "/"
-    file: "docs/⚙️ Оптимизация сервера/Выбор ядра.md"
+content:
+  - name: docs
+    label: Docs
+    path: docs
+    type: collection
