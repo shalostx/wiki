@@ -6,3 +6,4 @@ content:
     filename: "{primary}.md"
     fields:
       - { name: id, label: ID, type: string}
+      - { name: body, label: Body, type: rich-text}
